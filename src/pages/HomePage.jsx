@@ -6,7 +6,7 @@ function HomePage() {
       <h2>Welcome to IronBeers!</h2>
       <p>Discover the world of beers with us.</p>
       <div className="links">
-        <a href="/beers">
+        <a href="/all-beers">
           <div className="link-card">
             <img src="src/assets/beers.png" alt="All Beers" />
             <h3>All Beers</h3>

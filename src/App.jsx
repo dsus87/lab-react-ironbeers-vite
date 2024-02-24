@@ -21,11 +21,11 @@ function App() {
       <h1>LAB | React IronBeers</h1>
 
       <Routes> 
-        <Route path="/" element={ <HomePage /> } />
-        <Route path="/" element={ <AllBeersPage /> } />
-        <Route path="/" element={ <RandomBeerPage /> } />
-        <Route path="/" element={ <AddBeerPage/> } />
-        <Route path="/" element={ <BeerDetailsPage/> } />
+         <Route path="/" element={<HomePage />} />
+          <Route path="/all-beers" element={<AllBeersPage />} />
+          <Route path="/random-beer" element={<RandomBeerPage />} />
+          <Route path="/add-beer" element={<AddBeerPage />} />
+          <Route path="/beer-details" element={<BeerDetailsPage />} />
       </Routes>
 
     </div>
